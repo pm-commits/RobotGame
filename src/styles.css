@@ -1,0 +1,81 @@
+.robot-game{
+    border: 1px solid rgb(196, 190, 190);
+    padding: 10px 10px 10px 10px;
+    color: black;
+}
+
+body{
+    color: rgb(30, 102, 133);
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 50px;
+}
+
+.robot1-path {
+    background-color: lightblue;
+}
+
+.robot2-path {
+    background-color: lightgreen;
+}
+
+.screen2{
+    display: none;
+}
+
+.robot-mark{
+    width: 30px;
+  height: 30px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  z-index: 9999;
+}
+
+.robot-active{
+    background-color: black;
+}
+
+.error{
+    color: red;
+    margin-top: 2px;
+}
+
+button{
+    width: 50px;
+    height: 25px;
+    background-color: #4CAF50;
+    border-radius: 4px;
+
+}
+
+input{
+    height: 25px;
+    border-radius: 4px;
+
+}
+
+.grid-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.controls{
+    display: flex;
+    gap: 20px;
+}
+
+
